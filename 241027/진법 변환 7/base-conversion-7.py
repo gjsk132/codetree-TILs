@@ -1,12 +1,11 @@
-x, y = map(int,input().split("."))
-x = bin(x)+"."
+x, y = map(str,input().split("."))
+x = bin(int(x))+"."
 x = list(x[2:])
 
-y = float(y/10**len(str(y)))
+y = float("0."+y)
 
 for _ in range(4):
     y *= 2
-    
     if y >= 1:
         x.append("1")
         y-=1
