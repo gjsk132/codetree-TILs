@@ -1,1 +1,1 @@
-print('''He says "It's a really simple semtence".''')
+print('''He says "It's a really simple sentence".''')
